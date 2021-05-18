@@ -10,20 +10,23 @@
     <body>
         <header class ="header-nav">
             <img id="library-icon" src="images/library_icon.png" alt="Library Icon">
-            <h1>My Book Shelf</h1>
+            <h1 id="site-title">My Book Shelf</h1>
         </header>
         <section class = "new-book"> <!--Add new book-->
-            <input type="text" name="title" value="Title"><br>
-            <input type="text" name="author" value="Author"><br>
-            <input type="text" name="pages" value="Pages"><br>
+            <input id="title" type="text" name="title" placeholder="Title"><br>
+            <input id="author" type="text" name="author"placeholder="Author"><br>
+            <input id="pages" type="text" name="pages" placeholder="Pages"><br>
 
-            <input type="checkbox" name="read" value="read">
+            <input id="read-checkbox" type="checkbox" name="read" value="read">
             <label>Read</label><br>
 
-            <input type="button" value="Add Book">
-            <input type="button" value="Clear Books">
+            <button id="addBook-button" type="button" value="Add Book">Add Book</button>
+            <button id="clearBooks-button" type="button" value="Clear Books">Clear Books</button>
         </section>
         <section class = "library-shelf"> <!--Display books-->
+            <ul>
+                
+            </ul>
         </section>
         <footer class="footer-nav"> <!--Credits-->
             <p>The Odin Project: <a href="https://www.theodinproject.com/courses/javascript/lessons/library">Library</a></p>

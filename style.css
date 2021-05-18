@@ -1,6 +1,27 @@
-.header-nav { 
+body {
+    background-color: #ffca4f;
+  }
+
+button {
+    border: 0px solid transparent;
+    border-radius: 5px;
+    text-shadow: 0px 0px 0px transparent;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 7px;
+}
+
+.header-nav {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+img {
+    border: 3px solid #ff757c;
+    border-radius: 50%;
 }
 
 #library-icon {
@@ -8,22 +29,51 @@
     width: auto; 
     max-width: 100px; 
     max-height: 100px;
+    margin-bottom: 10px;
 }
+
+#site-title {
+    color: #ff757c;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
 
 .new-book { 
     display: flex;
     justify-content: center;
 }
 
+#read-checkbox, label {
+}
+
+#title, #author, #pages {
+    border: 0px solid transparent;
+    border-radius: 5px;
+    text-shadow: 0px 0px 0px transparent;
+    margin-left: 10px;
+}
+
+
 .library-shelf {
-    width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    width: auto;
     height: 500px;
+
     outline: solid 2px;
-    display: flex;
-    justify-content: center;
+}
+
+#harry-potter {
+    outline: #ff757c;
 }
 
 .footer-nav {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
